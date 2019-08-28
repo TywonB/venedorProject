@@ -10,7 +10,869 @@
 
 }
 
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Tablet//////////////////////////////////////////////////////////////////////////////// */
+
 @media (min-width:768px) {
+
+    header {
+        background: rgb(247, 247, 247);
+        margin-bottom: 25px;
+        border-top: 4px solid #15bfca;
+    }
+    
+    .topbar {
+        left: -40px;
+    }
+    
+    .topbar ul {
+        list-style: none;
+    }
+    
+    .topbar ul li a {
+        text-decoration: none;
+        float: left;
+        padding: 5px 10px;
+        color: grey;
+        margin-left: -10px;
+        font-size: 12px;
+    }
+    
+    .login {
+        padding: 5px 0px;
+        color: grey;
+        text-align: right;
+        right: 7.5px;
+    }
+
+    .login p {
+        font-size: 12px;
+    }
+    
+    .logo {
+        margin-right: 57.5px;
+    }
+    
+    .navbars {
+        position: relative;
+    }
+    
+    .navbar1 {
+        right: 25px;
+        top: 10px;
+    }
+    
+    #language-select {
+        height: 50px;
+        margin-bottom: 30px;
+        color: grey;
+        font-size: 13px;
+    }
+    
+    .navbar2 {
+        margin-top: 10px;
+        font-size: 20px;
+        left: 9px;
+    }
+    
+    #options {
+        height: 50px;
+        color: grey;
+        font-size: 13px
+    }
+    
+    .price {
+        margin-top: 25px;
+        left: 12px;
+        text-align: right;
+    }
+    
+    .price a {
+        background-color: #15bfca;
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 16.5px;
+        padding-bottom: 17px;
+    }
+    
+    .price a:hover {
+        color: white;
+        text-decoration: none;
+    }
+    
+    select {
+        padding: 2px 5px;
+        background-color: #eeeeec;
+        border: none;
+    }
+    
+    .locations ul {
+        list-style: none;
+        margin-left: -50px;
+        padding-bottom: 46px;
+        font-size: 11px;
+        font-family: 'PT Sans', sans-serif;
+    }
+    
+    .locations ul li a {
+        text-decoration: none;
+        float: left;
+        padding: 5px 10px;
+        color: black;
+        padding-right: 17px;
+    }
+    
+    .locations ul li a:hover {
+        color: #15bfca;
+    }
+    
+    .options {
+        border: none;
+    }
+    
+    .search-container {
+        width: 282px;
+    }
+    
+    .topnav .search-container {
+        float: right;
+    }
+      
+    .topnav input[type=text] {
+        padding: 6px;
+        margin-top: 41px;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+      
+    .topnav .search-container button {
+        float: right;
+        padding: 8px;
+        padding-bottom: 8px;
+        margin-top: 41px;
+        margin-right: 14px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .topnav .search-container button:hover {
+        background: #eeeeec;
+    }
+      
+    @media screen and (max-width: 960px) {
+        }
+        .topnav a, .topnav input[type=text], .topnav .search-container button {
+          float: none;
+          /* display: block; */
+          /* text-align: left; */
+          /* width: 100%; */
+          margin: 0;
+          padding: 7px 14px;
+        }
+        .topnav input[type=text] {
+          border: 1px solid #ccc;  
+        }
+    }
+    
+    .hero {
+        margin-left: -69.5px;
+    }
+    
+    .herosubs {
+        margin-top: 35px;
+        margin-left: -88px;
+    }
+    
+    .shipping {
+        left: 43px;
+    }
+    
+    .sale {
+        left: 45px;
+    }
+    
+    .arrivals {
+        left: 45px;
+        height: 199px;
+    }
+    
+    .information1 {
+        margin-top: 17px;
+    }
+    
+    .information1 p {
+        color: rgb(163, 163, 163);
+        font-family: 'PT Sans', sans-serif;
+        margin-left: 2.5px;
+        font-size: 9px;
+    }
+    
+    .latest {
+        font-family: 'Oswald', sans-serif;
+        margin-top: 37px;
+        font-size: 43px;
+        margin-left: 11.5px;
+    }
+    
+    .horizontalLine1 {
+        height: 1px;
+        width: 515px;
+        left: 140px;
+        top: 45px;
+        margin-bottom: 0;
+        position: absolute;
+    }
+    
+    .rightButton, .leftButton {
+        color: rgb(163, 163, 163);
+        margin-top: 67.5px;
+        font-size: 20px;
+        background: #ddd;
+        border: none;
+        padding-top: 2px;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+        margin-left: 15px;
+        margin-right: -1px;
+    }
+    
+    .leftButton {
+        margin-right: -10px;
+    }
+    
+    .rightButton:hover, .leftButton:hover {
+        background: #15bfca;
+        color: white;
+    }
+    
+    .latestItem1 {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(163, 163, 163);
+        margin-left: 0px;
+    }
+    
+    .jewelry {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    
+    .discount1 {
+        background: rgb(255, 40, 148);
+        color: beige;
+        font-size: 9px;
+        padding: 4.5px 15px 0px 9px;
+        position: absolute;
+        left: 21px;
+        top: 10px;
+        font-family: 'Signika', sans-serif;
+        width: 38px;
+        height: 22.5px;
+    }
+    
+    .price1 {
+        background: #15bfca;
+        color: beige;
+        font-size: 13px;
+        padding: 18px 19px 0px 19px;
+        border-radius: 50px;
+        position: absolute;
+        left: 112px;
+        top: 96px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        height: 56px;
+    }
+    
+    .latestItem2 {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(163, 163, 163);
+        left: 11px;
+    }
+    
+    .coat {
+        /* margin-top: 24px; */
+        font-size: 18px;
+    }
+    
+    .price2 {
+        background: #15bfca;
+        color: beige;
+        font-size: 14px;
+        padding: 23px 20px 0px 20px;
+        border-radius: 50px;
+        position: absolute;
+        left: 103px;
+        top: 111px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        height: 66px;
+    }
+    
+    .latestItem3 {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(163, 163, 163);
+        left: 12px;
+    }
+    
+    .mocca {
+        margin-top: 16px;
+        font-size: 18px;
+    }
+    
+    .discount2 {
+        background: rgb(255, 40, 148);
+        color: beige;
+        font-size: 9px;
+        padding: 5px 15px 0px 9px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-family: 'Signika', sans-serif;
+        width: 38px;
+        height: 22px;
+    }
+
+    .price3 {
+        background: #15bfca;
+        color: beige;
+        font-size: 13px;
+        padding: 18px 19px 0px 19px;
+        border-radius: 50px;
+        position: absolute;
+        left: 112px;
+        top: 96px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        height: 56px;
+    }
+    
+    .latestItem4 {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(163, 163, 163);
+        left: 9px;
+        bottom: 5px;
+    }
+    
+    .sweater {
+        margin-top: -2px;
+        font-size: 18px;
+    }
+
+    .price4 {
+        background: #15bfca;
+        color: beige;
+        font-size: 13px;
+        padding: 21px 23px 0px 23px;
+        border-radius: 50px;
+        position: absolute;
+        left: 105px;
+        top: 109px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        height: 63px;
+    }
+    
+    .cart1, .cart2, .cart3, .cart4 {
+        border-radius: 5px;
+        color: beige;
+        background: rgb(68, 68, 68);
+        font-size: 12px;
+        border: none;
+        padding: 6px 20px 6px 20px;
+    }
+    
+    .cart1:hover, .cart2:hover, .cart3:hover, .cart4:hover {
+        opacity: 0.8;
+    }
+    
+    .welcomeToVenedor {
+        margin-top: 85px;
+    }
+    
+    .welcome {
+        font-family: 'Oswald', sans-serif;
+        font-size: 43px;
+        padding-left: 10px;
+    }
+    
+    .welcomeParagraph {
+        color: rgb(163, 163, 163);
+        font-size: 14.5px;
+    }
+    
+    .indentation1 {
+        margin-left: 16px;
+    }
+    
+    .welcomeParagraph2 {
+        color: rgb(163, 163, 163);
+        font-size: 14.5px;
+        margin-top: -10px;
+    }
+    
+    .indentation2 {
+        margin-left: 16px;
+    }
+    
+    .promolink {
+        font-size: 14.5px;
+        margin-top: -10px;
+    }
+    
+    .devicesimg {
+        margin-top: 21px;
+    }
+    
+    .bestsellers {
+        font-family: 'Oswald', sans-serif;
+        font-size: 43px;
+        margin-left: 14px;
+        color: black;
+    }
+    
+    .horizontalLine2 {
+        height: 1px;
+        width: 445px;
+        left: 215px;
+        top: 31px;
+        margin-bottom: 0;
+        position: absolute;
+    }
+    
+    .information2 {
+        margin-top: 17px;
+    }
+    
+    .information2 p {
+        color: rgb(163, 163, 163);
+        font-family: 'PT Sans', sans-serif;
+        margin-left: 2.5px;
+        font-size: 9px;
+    }
+    
+    .rightButton2, .leftButton2 {
+        color: rgb(163, 163, 163);
+        margin-top: 52.5px;
+        font-size: 20px;
+        background: #ddd;
+        border: none;
+        padding-top: 2px;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+        margin-left: 15px;
+    }
+    
+    .rightButton2 {
+        margin-right: -1px;
+    }
+    
+    .leftButton2 {
+        margin-right: -10px;
+    }
+    
+    .rightButton2:hover, .leftButton2:hover {
+        background: #15bfca;
+        color: white;
+    }
+    
+    .bestsellersItems {
+        margin-top: 40px;
+    }
+    
+    .bestsellersItem1 {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(163, 163, 163);
+        margin-left: 0px;
+    }
+    
+    .jewelry2 {
+        font-size: 18px;
+        margin-top: 19px;
+    }
+    
+    .discount3 {
+        background: #0ca5b4;
+        color: beige;
+        font-size: 11px;
+        padding: 7px 15px 10px 14px;
+        position: absolute;
+        left: 26.5px;
+        top: 7.5px;
+        font-family: 'Signika', sans-serif;
+        width: 51px;
+        height: 30px;
+    }
+    
+    .price5 {
+        background: #15bfca;
+        color: beige;
+        font-size: 13px;
+        padding: 18px 19px 0px 19px;
+        border-radius: 50px;
+        position: absolute;
+        left: 112px;
+        top: 90px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        height: 56px;
+    }
+    
+    .bestsellersItem2 {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(163, 163, 163);
+        left: 11px;
+    }
+    
+    .coat2 {
+        margin-top: 24px;
+        font-size: 18px;
+    }
+    
+    .discount4 {
+        background: rgb(255, 40, 148);
+        color: beige;
+        font-size: 11px;
+        padding: 8px 15px 10px 12px;
+        position: absolute;
+        left: 22px;
+        top: 11.5px;
+        font-family: 'Signika', sans-serif;
+        width: 50px;
+        height: 30px;
+    }
+    
+    .price6 {
+        background: #15bfca;
+        color: beige;
+        font-size: 14px;
+        padding: 20px 17px 0px 17px;
+        border-radius: 50px;
+        position: absolute;
+        left: 109px;
+        top: 92px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        height: 60px;
+    }
+    
+    
+    .bestsellersItem3 {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(163, 163, 163);
+        left: 12px;
+        top: 7px;
+    }
+    
+    .mocca2 {
+        margin-top: 11px;
+        font-size: 18px;
+    }
+
+    .price7 {
+        background: #15bfca;
+        color: beige;
+        font-size: 13px;
+        padding: 18px 19px 0px 19px;
+        border-radius: 50px;
+        position: absolute;
+        left: 111px;
+        top: 93px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        height: 56px;
+    }
+    
+    .bestsellersItem4 {
+        text-align: center;
+        font-size: 23px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgb(163, 163, 163);
+        left: 9px;
+        bottom: 7px;
+    }
+    
+    .sweater2 {
+        margin-top: -2px;
+        font-size: 18px;
+    }
+
+    .price8 {
+        background: #15bfca;
+        color: beige;
+        font-size: 13px;
+        padding: 21px 23px 0px 23px;
+        border-radius: 50px;
+        position: absolute;
+        left: 106px;
+        top: 111px;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        height: 63px;
+    }
+    
+    .horizontalLine3 {
+        height: 1px;
+        width: 377.5px;
+        left: 282px;
+        top: 29px;
+        margin-bottom: 0;
+        position: absolute;
+    }
+    
+    .information3 {
+        margin-top: 42px;
+    }
+    
+    .information3 p {
+        color: rgb(163, 163, 163);
+        font-family: 'PT Sans', sans-serif;
+        margin-left: 2.5px;
+        font-size: 13px;
+    }
+    
+    .manufacturers {
+        font-family: 'Oswald', sans-serif;
+        font-size: 43px;
+        margin-left: 15px;
+    }
+    
+    .rightButton3, .leftButton3 {
+        color: rgb(163, 163, 163);
+        margin-top: 75.5px;
+        font-size: 20px;
+        background: #ddd;
+        border: none;
+        padding-top: 2px;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+        margin-left: 15px;
+    }
+    
+    .rightButton3 {
+        margin-right: -1px;
+    }
+    
+    .leftButton3 {
+        margin-right: -10px;
+    }
+    
+    .rightButton3:hover, .leftButton3:hover {
+        background: #15bfca;
+        color: white;
+    }
+    
+    .brandLogo {
+        margin-top: 35px;
+        margin-right: 9px;
+    }
+    
+    .newscolor {
+        background: #ccc;
+        margin-top: 80px;
+    }
+    
+    .fashionNews h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 19px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+    
+    .search-container2 {
+        background: #ccc;
+        border: 1.5px solid #ffe000;
+        border-radius: 4px;
+        padding-right: 56px;
+        padding-left: 23px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        margin-right: 7px;
+        font-size: 11px;
+    }
+    
+    .signupLeft {
+        left: 9px;
+    }
+    
+    .topnav .search-container2 {
+        float: right;
+        margin-top: -44px;
+    }
+      
+    .topnav input[type=text] {
+        padding: 6px;
+        margin-top: 41px;
+        font-size: 17px;
+    }
+      
+    .topnav .search-container2 button {
+        float: right;
+        padding: 8px;
+        padding-bottom: 7px;
+        margin-top: 41px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .topnav .search-container2 button:hover {
+        background: #eeeeec;
+    }
+      
+    @media screen and (max-width: 960px) {
+        .topnav .search-container2 {
+          float: none;
+        }
+        .topnav a, .topnav input[type=text], .topnav .search-container2 button {
+          float: none;
+          /* display: block; */
+          /* text-align: left; */
+          /* width: 100%; */
+          margin: 0;
+          /* padding: 14px; */
+        }
+        .topnav input[type=text] {
+          border: 1px solid #ccc;  
+        }
+    }
+    
+    .submit {
+        background: #444;
+        border: none;
+        color: beige;
+        font-size: 10px;
+        border-radius: 2px;
+        padding: 13px 32px 10px 32px;
+    }
+    
+    .footer {
+        background: #47484c;
+        color: beige;
+        padding-top: 56px;
+    }
+    
+    .account1 ul, .info4 ul {
+        color: #15bfca;
+        margin-left: -25px;
+        font-size: 16px;
+        list-style: square;
+        line-height: 28px;
+    }
+    
+    .account1 ul li a, .info4 ul li a {
+        color: rgb(196, 196, 196)
+    }
+    
+    .account1 ul li a:hover, .info4 ul li a:hover {
+        color: #15bfca;
+        text-decoration: none;
+    }
+    
+    .account2, .info2, .twitter2, .facebook2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 17.5px;
+        color: #eaeaea;
+        margin-bottom: 18px;
+    }
+    
+    .twitter1 {
+        color: rgb(196, 196, 196);
+        font-size: 12px;
+        left: 5px;
+    }
+    
+    .twitter1 p {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    
+    .facebook1 {
+        color: rgb(196, 196, 196);
+        font-size: 12px;
+        left: 9px;
+    }
+    
+    .hour {
+        color: #646464;
+        font-size: 12px;
+    }
+    
+    .likeButton {
+        border: none;
+        color: beige;
+        background: #15bfca;
+        position: absolute;
+        top: 20px;
+        margin-left: 98.5px;
+        padding-top: 2px;
+        padding-right: 18px;
+        padding-bottom: 0;
+        padding-left: 18px;
+    }
+    
+    .anna p, .tom p, .antuan p, .milla p, .justine p, .maria p {
+        text-align: center;
+    }
+    
+    .horizontalLine4 {
+        height: 1px;
+        width: 934px;
+        left: -175px;
+        top: -15px;
+        margin-bottom: 0;
+        position: absolute;
+        background: #444;
+    }
+    
+    .copyright {
+        background: #47484c;
+        padding-top: 100px;
+        margin-top: -1px;
+    }
+
+    .facebook, .twitter, .rss, .linkedin, .amazon, .flickr, .skype, .envelope {
+        padding: 20px 20px 20px 18px;
+        width: 49px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+      
+    .copyright a:hover {
+        opacity: 0.7;
+        color: beige;
+        text-decoration: none;
+    }
+      
+    .copyright a {
+        background: #646464;
+        color: beige;
+        border-radius: 5px;
+    }
+    
+    .copy {
+        margin-top: 20px;
+        color: rgb(196, 196, 196);
+        font-size: 13px;
+    }
 
 }
 
@@ -45,7 +907,6 @@
     .login {
         padding: 5px 10px;
         color: grey;
-        /* left: 50px; */
     }
 
     .login p {
@@ -53,41 +914,40 @@
     }
     
     .logo {
-        margin-right: 138px;
+        margin-right: 57.5px;
     }
     
     .navbars {
-        /* left: 115px; */
         position: relative;
     }
     
     .navbar1 {
-        margin-top: 10px;
-        font-size: 20px;
-        margin-left: -125px;
-        left: 138px;
+        left: 68px;
+        top: 10px;
     }
     
     #language-select {
         height: 50px;
         margin-bottom: 30px;
         color: grey;
+        font-size: 13px;
     }
     
     .navbar2 {
         margin-top: 10px;
         font-size: 20px;
-        left: 100px;
+        left: 89px;
     }
     
     #options {
         height: 50px;
         color: grey;
+        font-size: 13px
     }
     
     .price {
         margin-top: 25px;
-        left: 17px;
+        left: 25px;
         text-align: right;
     }
     
@@ -107,7 +967,6 @@
     }
     
     select {
-        font-size: .9rem;
         padding: 2px 5px;
         background-color: #eeeeec;
         border: none;
@@ -370,10 +1229,11 @@
         font-family: 'PT Sans', sans-serif;
         color: rgb(163, 163, 163);
         left: 15px;
+        bottom: 15.5px;
     }
     
     .sweater {
-        margin-top: -1px;
+        margin-top: -2px;
         font-size: 24px;
     }
     
@@ -517,25 +1377,25 @@
     .discount3 {
         background: #0ca5b4;
         color: beige;
-        font-size: 16px;
-        padding: 8px 15px 10px 14px;
+        font-size: 11px;
+        padding: 7px 15px 10px 14px;
         position: absolute;
-        left: 29px;
-        top: 8px;
+        left: 26.5px;
+        top: 7.5px;
         font-family: 'Signika', sans-serif;
-        width: 60.5px;
-        height: 35.5px;
+        width: 51px;
+        height: 30px;
     }
     
     .price5 {
         background: #15bfca;
         color: beige;
         font-size: 22px;
-        padding: 30px;
+        padding: 22px 21px;
         border-radius: 50px;
         position: absolute;
-        left: 178px;
-        top: 147px;
+        left: 149px;
+        top: 121.5px;
         font-family: 'Fira Sans Condensed', sans-serif;
     }
     
@@ -555,29 +1415,29 @@
     .discount4 {
         background: rgb(255, 40, 148);
         color: beige;
-        font-size: 16px;
+        font-size: 11px;
         padding: 8px 15px 10px 12px;
         position: absolute;
-        left: 27px;
-        top: 14px;
+        left: 22px;
+        top: 11.5px;
         font-family: 'Signika', sans-serif;
-        width: 60px;
-        height: 35.5px;
+        width: 50px;
+        height: 30px;
     }
     
     .price6 {
         background: #15bfca;
         color: beige;
         font-size: 20px;
-        padding: 28px;
-        padding-top: 31px;
+        padding: 25px 21px 0px 18px;
         border-radius: 50px;
         position: absolute;
-        left: 173px;
-        top: 152px;
+        left: 144px;
+        top: 126px;
         font-family: 'Fira Sans Condensed', sans-serif;
-        height: 90px;
+        height: 75px;
     }
+    
     
     .bestsellersItem3 {
         text-align: center;
@@ -596,13 +1456,13 @@
         background: #15bfca;
         color: beige;
         font-size: 20px;
-        padding: 32px;
+        padding: 24px 24px 0px 24px;
         border-radius: 50px;
         position: absolute;
-        left: 175px;
-        top: 153px;
+        left: 145px;
+        top: 125px;
         font-family: 'Fira Sans Condensed', sans-serif;
-        height: 90px;
+        height: 75px;
     }
     
     .bestsellersItem4 {
@@ -611,6 +1471,7 @@
         font-family: 'PT Sans', sans-serif;
         color: rgb(163, 163, 163);
         left: 15px;
+        bottom: 22px;
     }
     
     .sweater2 {
@@ -622,7 +1483,7 @@
         background: #15bfca;
         color: beige;
         font-size: 20px;
-        padding: 24px 28px 0px 27px;
+        padding: 25px 28px 0px 27px;
         border-radius: 50px;
         position: absolute;
         left: 140px;
@@ -857,8 +1718,16 @@
         padding-top: 100px;
     }
     
-    .copyright a {
+    .facebook {
         padding: 20px;
+        width: 49px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .twitter, .rss, .linkedin, .amazon, .flickr, .skype, .envelope {
+        padding: 20px 20px 20px 18px;
         width: 49px;
         text-align: center;
         text-decoration: none;
@@ -890,251 +1759,53 @@
 
 @media (min-width:1440px) {
 
-    header {
-        background: rgb(247, 247, 247);
-        margin-bottom: 25px;
-        border-top: 4px solid #15bfca;
-    }
-    
-    .topbar {
-        margin-left: -40px;
-        margin-right: 40px;
-    }
-    
-    .topbar ul {
-        list-style: none;
-    }
-    
-    .topbar ul li a {
-        text-decoration: none;
-        float: left;
-        padding: 5px 10px;
-        color: grey;
-        margin-left: -10px;
-    }
-    
-    .login {
-        padding: 5px 10px;
-        color: grey;
-        left: 50px;
-    }
-
     .login p {
         margin-left: 23px;
     }
     
     .logo {
-        margin-right: 198px;
+        margin-right: 100px;
     }
     
     .navbars {
         left: 115px;
-        position: relative;
     }
     
     .navbar1 {
-        margin-top: 10px;
-        font-size: 20px;
-        margin-left: -125px;
-        left: 73px;
-    }
-    
-    #language-select {
-        height: 50px;
-        margin-bottom: 30px;
-        color: grey;
+        left: 7px;
+        top: 10px;
     }
     
     .navbar2 {
-        margin-top: 10px;
-        font-size: 20px;
-        left: 30px;
-    }
-    
-    #options {
-        height: 50px;
-        color: grey;
+        left: 13px;
+        bottom: 0.5px;
     }
     
     .price {
-        margin-top: 25px;
-        left: 4px;
-        text-align: left;
+        left: -19px;
+        bottom: 60px;
+        text-align: right;
     }
     
     .price a {
-        background-color: #15bfca;
-        color: white;
-        text-decoration: none;
-        padding-left: 20px;
-        padding-right: 20px;
         padding-top: 17px;
         padding-bottom: 16px;
     }
     
-    .price a:hover {
-        color: white;
-        text-decoration: none;
-    }
-    
-    select {
-        font-size: .9rem;
-        padding: 2px 5px;
-        background-color: #eeeeec;
-        border: none;
-    }
-    
-    .locations ul {
-        list-style: none;
-        margin-left: -50px;
-        padding-bottom: 46px;
-        font-size: 17px;
-        font-family: 'PT Sans', sans-serif;
-    }
-    
     .locations ul li a {
-        text-decoration: none;
-        float: left;
-        padding: 5px 10px;
-        color: black;
         padding-right: 35px;
-    }
-    
-    .locations ul li a:hover {
-        color: #15bfca;
-    }
-    
-    .options {
-        border: none;
     }
     
     .search-container {
         width: 280px;
     }
-    
-    .topnav .search-container {
-        float: right;
-        margin-top: -44px;
-    }
-      
-    .topnav input[type=text] {
-        padding: 6px;
-        margin-top: 41px;
-        font-size: 17px;
-        margin-left: 5px;
-    }
       
     .topnav .search-container button {
-        float: right;
-        padding: 8px;
         padding-bottom: 7px;
-        margin-top: 41px;
-        margin-right: 14px;
-        background: #ddd;
-        font-size: 17px;
-        border: none;
-        cursor: pointer;
-    }
-      
-    .topnav .search-container button:hover {
-        background: #eeeeec;
-    }
-      
-    @media screen and (max-width: 960px) {
-        .topnav .search-container {
-          float: none;
-        }
-        .topnav a, .topnav input[type=text], .topnav .search-container button {
-          float: none;
-          display: block;
-          text-align: left;
-          width: 100%;
-          margin: 0;
-          padding: 14px;
-        }
-        .topnav input[type=text] {
-          border: 1px solid #ccc;  
-        }
-    }
-    
-    .hero {
-        margin-left: -69.5px;
-    }
-    
-    .herosubs {
-        margin-top: 35px;
-        margin-left: -88px;
-    }
-    
-    .shipping {
-        left: 43px;
-    }
-    
-    .sale {
-        left: 45px;
-    }
-    
-    .arrivals {
-        left: 45px;
-        height: 199px;
-    }
-    
-    .information1 {
-        margin-top: 17px;
-    }
-    
-    .information1 p {
-        color: rgb(163, 163, 163);
-        font-family: 'PT Sans', sans-serif;
-        margin-left: 2.5px;
-    }
-    
-    .latest {
-        font-family: 'Oswald', sans-serif;
-        margin-top: 37px;
-        font-size: 50px;
-        margin-left: 11.5px;
     }
     
     .horizontalLine1 {
-        height: 1px;
         width: 920px;
-        left: 145px;
-        top: 52px;
-        margin-bottom: 0;
-        position: absolute;
-    }
-    
-    .rightButton, .leftButton {
-        color: rgb(163, 163, 163);
-        margin-top: 73.5px;
-        font-size: 20px;
-        background: #ddd;
-        border: none;
-        padding-top: 2px;
-        padding-bottom: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-        float: right;
-        margin-left: 15px;
-        margin-right: -1px;
-    }
-    
-    .leftButton {
-        margin-right: -10px;
-    }
-    
-    .rightButton:hover, .leftButton:hover {
-        background: #15bfca;
-        color: white;
-    }
-    
-    .latestItem1 {
-        text-align: center;
-        font-size: 23px;
-        font-family: 'PT Sans', sans-serif;
-        color: rgb(163, 163, 163);
-        margin-left: 0px;
     }
 
     .bracelet {
@@ -1146,36 +1817,19 @@
     }
     
     .discount1 {
-        background: rgb(255, 40, 148);
-        color: beige;
         font-size: 16px;
         padding: 8px 15px 10px 14px;
-        position: absolute;
         left: 35px;
         top: 16px;
-        font-family: 'Signika', sans-serif;
         width: 60px;
         height: 35.5px;
     }
     
     .price1 {
-        background: #15bfca;
-        color: beige;
-        font-size: 22px;
-        padding: 30px;
-        border-radius: 50px;
-        position: absolute;
+        padding: 25px 29px 0px 29px;
         left: 182px;
         top: 155px;
-        font-family: 'Fira Sans Condensed', sans-serif;
-    }
-    
-    .latestItem2 {
-        text-align: center;
-        font-size: 23px;
-        font-family: 'PT Sans', sans-serif;
-        color: rgb(163, 163, 163);
-        left: 11px;
+        height: 90px;
     }
 
     .jessicaLondon {
@@ -1188,25 +1842,11 @@
     }
     
     .price2 {
-        background: #15bfca;
-        color: beige;
-        font-size: 20px;
         padding: 28px;
         padding-top: 31px;
-        border-radius: 50px;
-        position: absolute;
         left: 179px;
         top: 155px;
-        font-family: 'Fira Sans Condensed', sans-serif;
         height: 90px;
-    }
-    
-    .latestItem3 {
-        text-align: center;
-        font-size: 23px;
-        font-family: 'PT Sans', sans-serif;
-        color: rgb(163, 163, 163);
-        left: 12px;
     }
 
     .gloves {
@@ -1219,37 +1859,23 @@
     }
     
     .discount2 {
-        background: rgb(255, 40, 148);
-        color: beige;
         font-size: 16px;
         padding: 8px 15px 10px 12px;
-        position: absolute;
         left: 28px;
         top: 16px;
-        font-family: 'Signika', sans-serif;
         width: 60px;
         height: 35.5px;
     }
     
     .price3 {
-        background: #15bfca;
-        color: beige;
-        font-size: 20px;
         padding: 32px;
-        border-radius: 50px;
-        position: absolute;
         left: 177px;
         top: 155px;
-        font-family: 'Fira Sans Condensed', sans-serif;
         height: 90px;
     }
     
     .latestItem4 {
-        text-align: center;
-        font-size: 23px;
-        font-family: 'PT Sans', sans-serif;
-        color: rgb(163, 163, 163);
-        left: 15px;
+        bottom: 1px;
     }
 
     .knittedSweater {
@@ -1262,63 +1888,10 @@
     }
     
     .price4 {
-        background: #15bfca;
-        color: beige;
-        font-size: 20px;
         padding: 32px;
-        border-radius: 50px;
-        position: absolute;
         left: 180px;
         top: 156px;
-        font-family: 'Fira Sans Condensed', sans-serif;
         height: 90px;
-    }
-    
-    .cart1, .cart2, .cart3, .cart4 {
-        border-radius: 5px;
-        color: beige;
-        background: rgb(68, 68, 68);
-        font-size: 12px;
-        border: none;
-        padding: 6px 20px 6px 20px;
-    }
-    
-    .cart1:hover, .cart2:hover, .cart3:hover, .cart4:hover {
-        opacity: 0.8;
-    }
-    
-    .welcomeToVenedor {
-        margin-top: 85px;
-    }
-    
-    .welcome {
-        font-family: 'Oswald', sans-serif;
-        font-size: 50px;
-        padding-left: 10px;
-    }
-    
-    .welcomeParagraph {
-        color: rgb(163, 163, 163);
-        font-size: 14.5px;
-    }
-    
-    .indentation1 {
-        margin-left: 16px;
-    }
-    
-    .welcomeParagraph2 {
-        color: rgb(163, 163, 163);
-        font-size: 14.5px;
-        margin-top: -10px;
-    }
-    
-    .indentation2 {
-        margin-left: 16px;
-    }
-    
-    .promolink {
-        font-size: 14.5px;
-        margin-top: -10px;
     }
     
     .devicesimg {
@@ -1327,247 +1900,64 @@
         /* width: 554px; */
     }
     
-    .bestsellers {
-        font-family: 'Oswald', sans-serif;
-        font-size: 50px;
-        margin-left: 14px;
-        color: black;
-    }
-    
     .horizontalLine2 {
-        height: 1px;
         width: 820px;
-        left: 245px;
-        top: 35px;
-        margin-bottom: 0;
-        position: absolute;
-    }
-    
-    .information2 {
-        margin-top: 17px;
-    }
-    
-    .information2 p {
-        color: rgb(163, 163, 163);
-        font-family: 'PT Sans', sans-serif;
-        margin-left: 2.5px;
-    }
-    
-    .rightButton2, .leftButton2 {
-        color: rgb(163, 163, 163);
-        margin-top: 56.5px;
-        font-size: 20px;
-        background: #ddd;
-        border: none;
-        padding-top: 2px;
-        padding-bottom: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-        float: right;
-        margin-left: 15px;
-    }
-    
-    .rightButton2 {
-        margin-right: -1px;
-    }
-    
-    .leftButton2 {
-        margin-right: -10px;
-    }
-    
-    .rightButton2:hover, .leftButton2:hover {
-        background: #15bfca;
-        color: white;
-    }
-    
-    .bestsellersItems {
-        margin-top: 40px;
-    }
-    
-    .bestsellersItem1 {
-        text-align: center;
-        font-size: 23px;
-        font-family: 'PT Sans', sans-serif;
-        color: rgb(163, 163, 163);
-        margin-left: 0px;
-    }
-    
-    .jewelry2 {
-        font-size: 24px;
-        margin-top: 19px;
     }
     
     .discount3 {
-        background: #0ca5b4;
-        color: beige;
         font-size: 16px;
         padding: 8px 15px 10px 14px;
-        position: absolute;
         left: 31px;
         top: 8px;
-        font-family: 'Signika', sans-serif;
         width: 60.5px;
         height: 35.5px;
     }
     
     .price5 {
-        background: #15bfca;
-        color: beige;
-        font-size: 22px;
         padding: 30px;
-        border-radius: 50px;
-        position: absolute;
         left: 178px;
         top: 147px;
-        font-family: 'Fira Sans Condensed', sans-serif;
-    }
-    
-    .bestsellersItem2 {
-        text-align: center;
-        font-size: 23px;
-        font-family: 'PT Sans', sans-serif;
-        color: rgb(163, 163, 163);
-        left: 11px;
-    }
-    
-    .coat2 {
-        margin-top: 24px;
-        font-size: 24px;
     }
     
     .discount4 {
-        background: rgb(255, 40, 148);
-        color: beige;
         font-size: 16px;
-        padding: 8px 15px 10px 12px;
-        position: absolute;
         left: 24px;
         top: 14px;
-        font-family: 'Signika', sans-serif;
         width: 60px;
         height: 35.5px;
     }
     
     .price6 {
-        background: #15bfca;
-        color: beige;
-        font-size: 20px;
         padding: 31px 28px 0px 24px;
-        padding-top: 31px;
-        border-radius: 50px;
-        position: absolute;
         left: 173px;
         top: 152px;
-        font-family: 'Fira Sans Condensed', sans-serif;
         height: 90px;
     }
     
     .bestsellersItem3 {
-        text-align: center;
-        font-size: 23px;
-        font-family: 'PT Sans', sans-serif;
-        color: rgb(163, 163, 163);
         left: 20px;
     }
     
-    .mocca2 {
-        margin-top: 11px;
-        font-size: 24px;
-    }
-    
     .price7 {
-        background: #15bfca;
-        color: beige;
-        font-size: 20px;
         padding: 32px;
-        border-radius: 50px;
-        position: absolute;
         left: 175px;
         top: 153px;
-        font-family: 'Fira Sans Condensed', sans-serif;
         height: 90px;
-    }
-    
-    .bestsellersItem4 {
-        text-align: center;
-        font-size: 23px;
-        font-family: 'PT Sans', sans-serif;
-        color: rgb(163, 163, 163);
-        left: 15px;
     }
 
     .knittedSweater2 {
         margin-left: 29px;
     }
     
-    .sweater2 {
-        margin-top: -2px;
-        font-size: 24px;
-    }
-    
     .price8 {
-        background: #15bfca;
-        color: beige;
-        font-size: 20px;
         padding: 32px;
-        border-radius: 50px;
-        position: absolute;
         left: 182px;
         top: 167px;
-        font-family: 'Fira Sans Condensed', sans-serif;
         height: 90px;
     }
     
     .horizontalLine3 {
-        height: 1px;
         width: 755px;
-        left: 310px;
-        top: 33px;
-        margin-bottom: 0;
-        position: absolute;
-    }
-    
-    .information3 {
-        margin-top: 42px;
-    }
-    
-    .information3 p {
-        color: rgb(163, 163, 163);
-        font-family: 'PT Sans', sans-serif;
-        margin-left: 2.5px;
-    }
-    
-    .manufacturers {
-        font-family: 'Oswald', sans-serif;
-        font-size: 50px;
-        margin-left: 15px;
-    }
-    
-    .rightButton3, .leftButton3 {
-        color: rgb(163, 163, 163);
-        margin-top: 79.5px;
-        font-size: 20px;
-        background: #ddd;
-        border: none;
-        padding-top: 2px;
-        padding-bottom: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-        float: right;
-        margin-left: 15px;
-    }
-    
-    .rightButton3 {
-        margin-right: -1px;
-    }
-    
-    .leftButton3 {
-        margin-right: -10px;
-    }
-    
-    .rightButton3:hover, .leftButton3:hover {
-        background: #15bfca;
-        color: white;
     }
     
     .brandLogo {
@@ -1575,199 +1965,37 @@
         left: 4px;
     }
     
-    .newscolor {
-        background: #ccc;
-        margin-top: 80px;
-    }
-    
     .fashionNews h2 {
-        font-family: 'Oswald', sans-serif;
         font-size: 27px;
-        margin-bottom: 30px;
-        margin-top: 25px;
     }
     
     .search-container2 {
-        background: #ccc;
-        border: 1.5px solid #ffe000;
-        border-radius: 4px;
         padding-right: 196px;
-        padding-left: 23px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-top: 20px;
         margin-left: -85px;
-        margin-right: 7px;
-        font-size: 15px;
     }
     
     .signupLeft {
         left: 105px;
     }
     
-    .topnav .search-container2 {
-        float: right;
-        margin-top: -44px;
-    }
-      
-    .topnav input[type=text] {
-        padding: 6px;
-        margin-top: 41px;
-        font-size: 17px;
-    }
-      
-    .topnav .search-container2 button {
-        float: right;
-        padding: 8px;
-        padding-bottom: 7px;
-        margin-top: 41px;
-        margin-right: 16px;
-        background: #ddd;
-        font-size: 17px;
-        border: none;
-        cursor: pointer;
-    }
-      
-    .topnav .search-container2 button:hover {
-        background: #eeeeec;
-    }
-      
-    @media screen and (max-width: 960px) {
-        .topnav .search-container2 {
-          float: none;
-        }
-        .topnav a, .topnav input[type=text], .topnav .search-container2 button {
-          float: none;
-          display: block;
-          text-align: left;
-          width: 100%;
-          margin: 0;
-          padding: 14px;
-        }
-        .topnav input[type=text] {
-          border: 1px solid #ccc;  
-        }
-    }
-    
-    .submit {
-        background: #444;
-        border: none;
-        color: beige;
-        font-size: 15px;
-        border-radius: 2px;
-        padding: 13px 32px 10px 32px;
-    }
-    
-    .footer {
-        background: #47484c;
-        color: beige;
-        padding-top: 56px;
-    }
-    
-    .account1 ul, .info4 ul {
-        color: #15bfca;
-        margin-left: -25px;
-        font-size: 16px;
-        list-style: square;
-        line-height: 28px;
-    }
-    
-    .account1 ul li a, .info4 ul li a {
-        color: rgb(196, 196, 196)
-    }
-    
-    .account1 ul li a:hover, .info4 ul li a:hover {
-        color: #15bfca;
-        text-decoration: none;
-    }
-    
-    .account2, .info2, .twitter2, .facebook2 {
-        font-family: 'Oswald', sans-serif;
-        font-size: 17.5px;
-        color: #eaeaea;
-        margin-bottom: 18px;
-    }
-    
-    .twitter1 {
-        color: rgb(196, 196, 196);
-        font-size: 12px;
-        margin-left: -20px;
-    }
-    
-    .twitter1 p {
-        font-size: 14px;
-        margin-top: 16px;
-    }
-    
-    .facebook1 {
-        color: rgb(196, 196, 196);
-        font-size: 12px;
-        left: 100px;
-        margin-left: -64px;
-    }
-    
-    .hour {
-        color: #646464;
-        font-size: 12px;
-    }
-    
     .likeButton {
-        border: none;
-        color: beige;
-        background: #15bfca;
-        position: absolute;
-        top: 20px;
         margin-left: 185px;
-        padding-top: 2px;
-        padding-right: 18px;
-        padding-bottom: 0;
-        padding-left: 18px;
-    }
-    
-    .anna p, .tom p, .antuan p, .milla p, .justine p, .maria p {
-        text-align: center;
     }
     
     .horizontalLine4 {
-        height: 1px;
         width: 1480px;
-        left: -175px;
-        top: -15px;
-        margin-bottom: 0;
-        position: absolute;
-        background: #444;
     }
     
-    .copyright {
-        background: #47484c;
-        padding-top: 100px;
-    }
-    
-    .copyright a {
+    /* .copyright a {
         padding: 20px;
         width: 50px;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
-    }
-      
-    .copyright a:hover {
-        opacity: 0.7;
-        color: beige;
-        text-decoration: none;
-    }
-      
-    .copyright a {
-        background: #646464;
-        color: beige;
-        border-radius: 5px;
-    }
+    } */
     
     .copy {
-        margin-top: 20px;
-        color: rgb(196, 196, 196);
         margin-left: 186px;
-        margin-right: -1px;
     }
 
 }
