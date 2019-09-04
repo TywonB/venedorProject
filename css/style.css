@@ -1978,7 +1978,7 @@
     
     .bestsellersItem4 {
         left: 15px;
-        bottom: 22px;
+        top: 6px;
     }
     
     .sweater2 {
@@ -2068,6 +2068,11 @@
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Laptop L////////////////////////////////////////////////////////////////////////////// */
 
 @media (min-width:1440px) {
+
+    .topbar {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .login p {
         margin-left: 23px;
