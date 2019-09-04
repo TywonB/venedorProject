@@ -2299,6 +2299,10 @@
         text-decoration: none;
         margin: 5px 2px;
     } */
+
+    .socialMedia {
+        text-align-last: left;
+    }
     
     .copy {
         margin-left: 186px;
